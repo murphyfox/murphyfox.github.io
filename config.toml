@@ -28,12 +28,15 @@ paginate = 20
 
 # ページのテーマカラー
 [Params.style.vars]
-  highlightColor = "#e22d30"
+  highlightColor = "#1798c1"
 
 # SNS等のユーザー名
 [Params.widgets.social]
   twitter = "hiroki_iida_"
-  github = "murphyfox"
+
+[[Params.widgets.social.custom]]
+  title = "Trailblazer.me"
+  url = "https://trailblazer.me/id/hiida"
 
 [Params.sidebar]
     home = "right"
